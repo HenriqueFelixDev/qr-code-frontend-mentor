@@ -1,0 +1,24 @@
+:root {
+    
+    --background-color: hsl(212, 45%, 89%); /* Cor de fundo principal*/
+    --title-color: hsl(218, 44%, 22%); /* Cor para títulos*/
+    --surface-color: hsl(0, 0%, 100%); /* Cor de fundo para cards e outros elementos */
+    --subtitle-color: hsl(220, 15%, 55%); /* Cor mais suave para subtítulos */
+    --shadow-color: hsla(0, 0%, 0%, 0.1); /* Cor para sombras de cards */
+}
+
+html, body, main {
+    height: 100%;
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
